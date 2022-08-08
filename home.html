@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- JavaScript Bundle with Popper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section id="title">
+        <div class="container-fluid c_f_one">
+
+            <!-- navbar -->
+
+            <nav class="navbar navbar-expand-lg">
+                <img class="navbar-brand"
+                    src="data:image/jpeg;base64,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">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ms-3 me-2">
+                            <a class="nav-link" href="">Home</a>
+                        </li>
+
+                        <li class="nav-item ms-3 me-2">
+                            <a class="nav-link" href="">Courses</a>
+                        </li>
+
+                        <li class="nav-item ms-3 me-2">
+                            <a class="nav-link" href="">Contact Us</a>
+                        </li>
+
+                        <li class="nav-item ms-3 me-2">
+                            <a class="nav-link" href="">Call Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- title and subtitle-->
+            <div class="row m-0 p-0">
+
+                <div class="col-lg-6 m-0 p-0">
+                    <h1 id="title_text">MOST TRUSTED TECH COACHING CENTER</h1>
+                    <p id="text_under_title">Our Goal Is To Make Future's
+                        Tech Innovators.</p>
+                        <button type="button" class="btn btn-primary">Check Courses Here!</button>
+                </div>
+
+                <!-- teacher image on title section -->
+                <div class="col-lg-6 m-0 p-0">
+                    <img class="img-fluid" id="title-teacher_image" src="https://unsplash.com/photos/IBKyH0V3rew/download?ixid=
+                    MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjU5ODcwOTY3&force=true&w=640" alt="photo">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- locations_title section -->
+
+    <section id="locations">
+        
+        <div class="container-fluid bg-primary locations">
+            <h2 class="locations_title text-light text-center">Our Institutes Are Available At These Locations -</h2>
+            <h3 class="locations_details text-center">JALANDHAR - HOSHIARPUR - CHANDIGARH</h3>
+        </div>
+
+    </section>
+
+    <!-- introduction about us -->
+
+    <section id="introduction_about_us">
+
+    
+        <div class="container-fluid c_f_two">
+            <div class="row">
+
+
+                <div class="col-12 col-md-10 m-0 p-0 mt-5">
+                    <h1 id="introduction_text">
+                        <span class="o7services_text_in_introduction">O7SERVICES</span>
+                         THE BEST SOLUTION FOR LEARNING NEW TECH.</h1>
+                </div>
+
+
+                <div class="col-12 col-md-8 m-0 p-0 mt-3 mb-4">
+                    <h5 class="introduction_subtitle">O7SERVICES Is The Leading Tech Teaching Institute In Punjab. Building Up The
+                        Coming Tech Innovators And Tech Pioneers Of Our Country </h5>
+                </div>
+
+
+                <div class="col-sm-7 mt-4">
+                    <h3 class="mt-5">Features And Benefits</h3>
+                    <ul class="mt-1" id="features_and_benefits">
+                        <li class="mt-4 mb-4">Fully Air-Conditioned Rooms To Keep Your Brain Cool</li>
+                        <li class="mt-4 mb-4">Ask Doubts Anytime, Call To Resolve Doubts Etc</li>
+                        <li class="mt-4 mb-4">Study Any Development Or Learning Technology</li>
+                        <li class="mt-4 mb-4">OutStanding Teachers Ready To Teach You New Tech</li>
+                        <li class="mt-4 mb-4">Group Of Students Are Provided Discounts</li>
+                    </ul>
+                </div>
+                
+
+                <div class="col-sm-5 m-0 p-0 mt-auto text-lg-end">
+                    <img class="img-fluid pc_image ms-auto" src="https://cdn-icons-png.flaticon.com/512/6396/6396964.png">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
