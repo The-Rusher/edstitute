@@ -28,17 +28,52 @@
 }
 
 #features_and_benefits {
+    /* font-weight: bold; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+#learn {
     font-weight: bold;
+    font-size: 50px;
+}
+
+#choose_course_text {
+    font-size: 27px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+@media (max-width: 989px)
+{
+    #choose_course_text {
+        font-size: 19px;
+    }
+}
+
+#begin_journey {
+    font-weight: bold;
+    color:darksalmon;
 }
 
 .c_f_one {
-    padding: 2% 10%;
+    padding: 2% 18%;
     margin-bottom: 2rem;
     
 }
 
 .c_f_two {
-    padding: 2% 10%;
+    padding: 2% 18%;
+    margin-bottom: 2rem;
+}
+
+.c_f_third {
+    padding: 2% 18%;
+    margin-bottom: 2rem;
+}
+
+.c_f_fourth {
+    padding: 2% 18%;
     margin-bottom: 2rem;
 }
 
@@ -54,7 +89,7 @@
     
 }
 
-.btn {
+.choose_btn_1 {
     width: 250px;
     height: 50px;
     margin-bottom: 3rem;
@@ -86,10 +121,35 @@
     -webkit-text-fill-color: transparent;
 }
 
+.the_best {
+    background: linear-gradient(87deg,#5a4bda,#eb427e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .introduction_subtitle {
     color: cadetblue;
 }
 
 .pc_image {
     width: 300px;
+}
+
+.learn_image {
+    border-radius: 20px;
+}
+
+.learn_subtitle {
+    color: cadetblue;
+}
+
+.social {
+    width: 2.5rem;
+}
+
+.social_title {
+    font-weight: bold;
+    color: darkviolet;
+
 }
